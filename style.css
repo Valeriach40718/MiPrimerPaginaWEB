@@ -1,0 +1,99 @@
+/* Selector: va a ser la manera que tenemos para identificar quien le vamos a aplicar la regla que queremos poner
+selector {
+    regla1: valor 1;
+    regla2: valor2;
+}
+*/
+/*
+selector de etiqueta: va a ubicar a toooodas las etiquetas y aplicarles los cmbios de las reglas que se indican */
+body{
+    background-color: rgb(203, 165, 227);
+    opacity: 0.9;
+}
+
+.titulo {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Homemade Apple', cursive;
+    font-family: 'Kaushan Script', cursive;
+}
+
+/*
+selector de clase: va a ubicar a toooodos los elementos que tengan la clase aplicada y aplicarle los cambios de las reglas que se indican.
+Recuerda que las clases se pueden poner a mas de un elemento y al elemento se puede poner mas de una clase */
+p {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Homemade Apple', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Lora', serif;
+}
+
+/*selector id: va a ubicar a el unico elemento que tenga el id y aplicarles los cambios de las reglas que se indican*/
+#texto {
+    color: blue;
+}
+
+
+.centrar {
+    text-align: center;
+}
+.dere{
+    text-align: right;
+}
+#img {
+    float: right;
+  }
+img {
+    border-radius: 8px;
+  }
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.li {
+    float: left;
+  }
+  
+.li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+.li.dropdown {
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
